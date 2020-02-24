@@ -1,83 +1,177 @@
-/*
-Each of these CSS elements is associated with an HTML Element, Class, or ID.
-Flip between this CSS file and the HTML to see how things line up.
-Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
-*/
+html { background-image: url("/w3images/photographer.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;}
+
 
 body {
-  /* Box-model */
-  padding: 0;
-
-  /* Positioning */
-  margin: 0;
-  font-family: Georgia, "Times New Roman", Times, serif;
-
-  /* Typography */
-  font-size: 18px;
-  line-height: 150%;
-  color: #333;
-
-  /* Visual */
-  background: #efeee7;
+    width : "960px";
+    font-family : 'Arial, Helvetica, sans-serif';
+    font-size : '18px';
+    color : '#777777';
+    background-color : '#777777';
+    padding : '10px';
+    padding-top : '3px';
 }
-
-header {
-  background: #d21034;
+.button {
+    ;background-color:#b60a0a;
+    border: '40px';
+    color: #dae2d8;
+    padding:  '50px';
+    text-align: center;
+    text-decoration: none;
+    display: 'inline-block';
+    font-size: '16px';
+    margin: '20px';
+    cursor: pointer
+  }
+  
+a {
+    color : #3AA6D0;
+    text-decoration : none;
 }
-
-h1 {
-  /* Box-model */
-  padding: 20px 0;
-
-  /* Positioning */
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 28px;
-
-  /* Typography */
-  color: #eee;
-  text-align: center;
-
-  /* Visual */
-  background: #333;
+ 
+/* H TAGS */
+ 
+h1.h1 {
+    width: '200px';
+    height: '40px';  
+    padding: '50px';
+    border: '10px' solid red;
+    box-sizing: border-box;
+    font-size: '20px';
+    color : 'FF2C00';
 }
+ 
+h1.toptitle {
+    margin-bottom : '10px';
+}
+ 
+/* h2 */
 
 h2 {
-  font-size: 24px;
+    pointer-events: '20px';
+    background-color: #63DC90;
+    font-size : 1.5em;
+    color : #FF8500;
+}
+ 
+h3 {
+    font-size : '18px';
+    color : #00B945;
+}
+ 
+/* ASIDE */
+ 
+aside {
+    float : '94%';
+    width : '90%';
+    margin-right: '20px';
+    margin-bottom:  '15px';
+    background-color: '#ebebeb';
+    padding : '20px';
+    border : '20px' solid #f8e80b;
+    
+}
+ 
+aside h1 {
+    font-size : '18px';
+    margin-top : '10px';
+}
+ 
+    aside h2 {
+    font-size : '18px';
+}
+ 
+aside .div1 {
+    padding : 10px;
+    background-color : #F0F0F0;
+    margin-bottom : '18px';
 }
 
-a {
-  color: #d21034;
+{
+
+    padding : 5px;
+    background-color : #F0F0F0;
+    margin-bottom : '10px';
 }
-
-.container {
-  /* Box-model */
-  width: 1024px;
-
-  /* Positioning */
-  margin: 0 auto;
+ 
+aside ul {
+    line-height : '30px';
+    list-style-type : circle;
+    color : '#777777'
 }
-
-#main-bio,
-#contact-info,
-#bio-image {
-  float: left;
+header {
+   background-color: '#ebebeb';
 }
-
-#main-bio {
-  width: 70%;
+ 
+/* NAV */
+ 
+ nav .nav {
+    float:right;
+    width: '300px';
+    text-align: 'grid-auto-flow': ;
+    padding: '10px';
 }
-
-#contact-info {
-  width: 30%;
+ 
+nav.h {
+    display : none;
 }
+ 
+nav.ul {
+    list-style-type : none;
+    margin : 0;
+    padding : 0;
+}
+ 
+nav.li {
+    display : inline;
+}
+ 
+nav a {
+    font-weight : bold;
+    color : #0776A0;
+}
+ 
+section. nav {
+    width : '300px';
+    margin-right : auto;
+    margin-left : top;
+    background-color : #63DC90;
+    color : #63DC90;
+    height: '30px';
+    border:'30px';
+}
+/* footer */
+footer {
+    text-align : center;
+    font-size : '18px';
+    font-style : italic;
+    padding: '900px';
+    border: #3AA6D0;
+    box-sizing: '100px';
+    background-color: #0bf8c1;
+}
+ 
+img.    {
+    height : '300px';
+    width: '300px';
+    float : auto;
+    margin-top : '200px';
+    margin-right : '200px';
+    
 
-#bio-image {
-  /* Box-model */
-  width: 200px;
-  height: 200px;
-
-  /* Positioning */
-
-  margin-right: 20px;
+}
+ 
+.quote p {
+    font-style : italic;
+} 
+ 
+ul.body-list{
+    list-style-position : inside;
+    list-style-image : url='../images/small_arrow.png';
+    line-height : '1.8em';
 }
